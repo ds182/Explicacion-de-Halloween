@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+        }
+        h1 {
+            color: #b108c7;
+            margin-top: 20px;
+        }
+        .video-container {
+            margin: 20px auto;
+            max-width: 100%;
+        }
+        iframe {
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+        }
+        .content-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .content {
+            margin: 10px;
+            padding: 20px;
+            background-color: #1a1a1a;
+            border-radius: 10px;
+            flex: 1;
+            min-width: 250px;
+        }
+        .content h2 {
+            margin: 0 0 10px;
+            color: #ff00aa;
+        }
+        .english {
+            color: #33ff00;
+        }
+        .spanish {
+            color: #f8f6f6;
+        }
+        @media (max-width: 768px) {
+            iframe {
+                height: 240px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>🎃 Halloween y Explicación 🎃</h1>
+    
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/zM6W0Junn1A?autoplay=1&loop=1&playlist=zM6W0Junn1A" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+        </iframe>
+    </div>
+
+    <div class="content-container">
+        <div class="content">
+            <h2>What is Halloween? (English)</h2>
+            <div class="english">
+                <p>
+                    Halloween is celebrated on October 31st, and it is a time when people dress up in costumes, go trick-or-treating, and decorate their homes with spooky themes. The tradition originated from the ancient Celtic festival of Samhain, where people believed that ghosts of the dead returned to earth. Nowadays, Halloween is a fun event filled with parties, scary movies, and lots of candy.
+                </p>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>¿Qué es Halloween? (Español)</h2>
+            <div class="spanish">
+                <p>
+                    Halloween se celebra el 31 de octubre, y es una fecha en la que las personas se disfrazan, piden dulces puerta a puerta y decoran sus casas con temas aterradores. La tradición se originó en el antiguo festival celta de Samhain, donde la gente creía que los fantasmas de los muertos regresaban a la tierra. Hoy en día, Halloween es un evento divertido lleno de fiestas, películas de terror y muchos dulces.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
